@@ -25,6 +25,11 @@ h1 {
     
 }
 
+nav {
+    font-weight: bold;
+}
+
+
 /*Seletores de classe*/
 .link {
  display: inline-block;
@@ -53,7 +58,7 @@ transition: background-color 0.3s ease-in;
 
 }
 
-/*Seletores de ID*/
-#menu ul {
+#menu{
     text-align: center;
 }
+
