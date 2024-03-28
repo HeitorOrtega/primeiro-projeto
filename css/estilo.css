@@ -51,6 +51,12 @@ nav {
 p{
     color:green ;
 }
+
+footer {
+    border-top: 2px solid red;
+
+}
+
 /*Seletores de classe*/
 .link {
     display: inline-block;
