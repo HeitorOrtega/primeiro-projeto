@@ -1,97 +1,81 @@
-/* Estilo para el h1 */
+/* Estilo para o h1 */
 
-/*Exemplo de regra CSS*/
-html{
+/* Exemplo de regra CSS */
+html {
     font-size: 16px;
 }
 
-#cabecalho{
-    background-color:blue;
-
+#cabecalho {
+    background-color: blue;
 }
 
-/*Exemplo de seletores*/
-/*Seletores de tipo*/
+/* Seletores de tipo */
 h1 {
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     color: white;
     font-size: 4em;
     text-align: center;
-    
 }
 
-.subtitulo{
-    font-family:'Times New Roman', Times, serif;
-    
+.subtitulo {
+    font-family: 'Times New Roman', Times, serif;
 }
 
 nav {
-    font-weight: bold;
-}
+    font-weight: bold; 
 
-.container{
+.container {
     margin: 20px;
 }
 
-#conteudo-principal{
+#conteudo-principal {
     line-height: 1.5;
 }
 
-#contact form{
+#contact form {
     border: 1px solid gray;
     padding: 10px;
 }
 
-#contact button{
+#contact button {
     background-color: blue;
     color: white;
-
 }
 
-p{
-    color:green ;
+p {
+    color: green;
 }
 
 footer {
     border-top: 2px solid red;
-
 }
 
 header {
     background-color: black;
-    color :white;
+    color: white;
     padding: 20px;
     text-align: center;
 }
-header {
-    background-color: black; 
-    color: white; 
-    padding: 20px; 
-    text-align: center; 
-}
-
 
 header h1 {
-    margin: 0; 
+    margin: 0;
 }
-
 
 header nav {
-    margin-top: 10px; 
+    margin-top: 10px;
 }
 
-
 header nav a {
-    color: white; 
-    text-decoration: none; 
-    margin: 0 10px; 
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
 }
 
 header nav a:hover {
-    text-decoration: underline; 
+    text-decoration: underline;
 }
 
-/*Seletores de classe*/
+/* Seletores de classe */
 .link {
     display: inline-block;
     margin: 0 5% 1% 5%;
@@ -99,27 +83,22 @@ header nav a:hover {
     background-color: rgba(19, 18, 18, 0.2);
     border-radius: 5px;
     transition: background-color 0.3s ease-in;
-
- /*Nesting elementos*/
-    /*Nesting pseudo-elementos*/
-    &:hover{
-        background-color: rgb(241, 237, 237);
-    }
-
- a{
-        text-decoration: none;
-        color: red;
-
-        /*Nesting elementos*/
-        img{
-            display: inline-block;
-            width: 50%;
-        }
- }
-
 }
 
-#menu{
+.link:hover {
+    background-color: rgb(241, 237, 237);
+}
+
+.link a {
+    text-decoration: none;
+    color: red;
+}
+
+.link a img {
+    display: inline-block;
+    width: 50%;
+}
+
+#menu {
     text-align: center;
 }
-
