@@ -13,9 +13,16 @@ html{
 /*Exemplo de seletores*/
 /*Seletores de tipo*/
 h1 {
-    color: black;
-    font-size: 5em;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    font-size: 4em;
     text-align: center;
+    
+}
+
+.subtitulo{
+    font-family:'Times New Roman', Times, serif;
+    
 }
 
 /*Seletores de classe*/
