@@ -33,6 +33,10 @@ nav {
     margin: 20px;
 }
 
+#conteudo-principal{
+    line-height: 1.5;
+}
+
 /*Seletores de classe*/
 .link {
  display: inline-block;
