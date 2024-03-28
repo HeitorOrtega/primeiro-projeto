@@ -41,6 +41,10 @@ nav {
     border: 1px solid gray;
     padding: 10px;
 }
+
+p{
+    color:green ;
+}
 /*Seletores de classe*/
 .link {
     display: inline-block;
